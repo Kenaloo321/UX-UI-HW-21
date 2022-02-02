@@ -73,8 +73,27 @@ form{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }    
-    
+    img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .socials{
+        display: flex;
+        justify-content: center;
+    }
+    img insta{
+        align-items: left;
+    }
+    img facebook{
+        align-items: right;
+    }
+    img twitter{
+        align-items: center;
+    }
+
     footer {
         padding: 15px 0;
         text-align: center;
