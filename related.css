@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display:wght@500&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+
+.jumbotron {
+    background-image: url("https://media.istockphoto.com/photos/fading-yellow-and-white-dots-of-light-picture-id184626260?b=1&k=20&m=184626260&s=170667a&w=0&h=NqUt83eOPKTL-5m8VVt151fs9zAtHcD5EDLi8U6xmzE=");
+    background-size: cover;
+  }
+h1{
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card{
+    font-family: "Playfair Display", sans-serif;
+    padding: 0;
+}
+.card card-img-top {
+    display: inline;
+}
+
+h3{
+    font-family: "Playfair Display", sans-serif;
+    justify-content: center;
+}
+
+p{
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+}
+#exampleInputEmail1{
+    max-width: 765px;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: center;
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+label{
+    font-family: "Playfair Display", sans-serif;
+}
+.btn{
+    font-family: "Playfair Display", sans-serif;
+    justify-content: center;
+}
+form{
+    font-family: "Playfair Display", sans-serif;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    }
+.container{
+    list-style: none;
+    list-style-type: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}    
+    .container2{
+        margin-top: 40px;
+    }
+    footer {
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    .footer_links {
+        list-style: none;
+    }
+    
+    .footer_links {
+        margin: 0%;
+        padding: 0%;
+        font: 18px;
+        line-height: 1.6;
+        margin-bottom: 0%;
+        text-align: center;
+    }   
+    
+    .footer_links a {
+    text-decoration: none;
+    opacity: 0.8;
+    display: inline-block;
+    padding: 0 15px;
+    }
+    
+    .footer_links a:hover {
+    opacity: 1;
+    }
+
+    p1 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 13px;
+        font-family: "Playfair Display", sans-serif;
+    }
+
+    @media only screen and (max-width:600){
+        .container{
+            flex-direction: column;
+            width: max-content;
+            margin: 0px 5%;
+            display: grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: "card";
+        }
+    }
